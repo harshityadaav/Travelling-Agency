@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Hind+Siliguri&family=Parisienne&family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+li {
+	list-style-type: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.App {
+	position: relative;
+}
+
+.heading {
+	font-size: var(--fonts-primary);
+	font-weight: var(--fontw-secondary);
+	line-height: 110%;
+}
+
+.heading_bold {
+	font-size: var(--fonts-primary);
+	font-weight: var(--fontw-primary);
+}
+
+.heading_primary {
+	font-size: var(--fonts-primary);
+	color: var(--secondary);
+	font-weight: var(--fontw-secondary);
+}
+
+.heading_light {
+	font-size: var(--fonts-secondary);
+	font-weight: var(--fontw-secondary);
+}
+
+.heading_secondary {
+	font-size: var(--fonts-secondary);
+	font-weight: var(--fontw-primary);
+}
+
+.c_primary {
+	color: var(--primary);
+}
+
+.c_secondary {
+	color: var(--secondary)
+}
+
+.c_dark {
+	color: var(--p-dark);
+}
+
+.c_green {
+	color: var(--green);
+}
+
+.card_heading {
+	font-size: var(--fonts-card-primary);
+	font-weight: var(--fontw-primary);
+}
+
+.yellow_heading {
+	font-size: var(--fonts-primary);
+	font-weight: var(--fontw-primary);
+	color: var(--secondary);
+}
+
+.read_more_btn {
+	text-decoration: none;
+	color: var(--secondary);
+	padding: 12px;
+	border: 2px solid var(--secondary);
+	border-radius: 50px;
+	background: transparent;
+}
+
+p {
+	text-align: justify;
+}
+
+.view_more_btn{
+	background-color: var(--secondary);
+	color: var(--primary) !important;
+}
+
+.view_more_btn:hover{
+	color: var(--secondary) !important;
+	background: var(--primary);
+}

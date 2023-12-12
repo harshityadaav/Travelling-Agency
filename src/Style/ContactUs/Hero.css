@@ -1,0 +1,56 @@
+.contactus-main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/Images/ContactUs/Group657.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  overflow: hidden;
+}
+.contactus-main .contact-content {
+  justify-content: center;
+  align-items:center;
+  display: flex;
+  width: 100%;
+  column-gap: 10%;
+  margin: auto;
+}
+.contactus-main .contact-content .first-part {
+  width: 40%;
+}
+.contactus-main .contact-content .first-part h2 {
+  color: var(--primary);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: 0.0125rem;
+}
+.contactus-main .contact-content .first-part p {
+  color: var(--primary);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.0125rem;
+}
+.contactus-main .contact-content .second-part {
+ margin-top: 8%;
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  .contactus-main .contact-content {
+    flex-direction: column;
+  }
+
+  .contactus-main .contact-content .first-part,
+  .contactus-main .contact-content .second-part {
+    width: 90%;
+  }
+
+  .contactus-main .contact-content .first-part {
+    display: none;
+  }
+
+  .contactus-main .contact-content .second-part {
+    text-align: center;
+  }
+}

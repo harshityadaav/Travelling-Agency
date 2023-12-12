@@ -1,0 +1,150 @@
+.custom-dropdown {
+  width: 150px;
+  height: 70px;
+  border: 2px solid white;
+  border-left: none;
+  border-radius: 2rem;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  font-size: 1rem;
+}
+
+.selected-option {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1rem;
+  justify-content: space-around;
+
+}
+.options{
+  position: relative;
+  z-index: 1;
+}
+
+.optionCss {
+  padding: .5rem 1rem;
+  background: #dbdee0;
+  font-weight: bold;
+}
+
+.optionCss:hover {
+  background: #f2d449;
+}
+
+.dropIcon {
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width:430px) {
+  .custom-dropdown {
+    height: 50px;
+    font-size: .8rem;
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    justify-content: space-around;
+  }
+
+}
+
+@media screen and (max-width:1080px) {
+  .custom-dropdown {
+    /* height: 50px; */
+    /* font-size: .8rem; */
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    /* padding: .6rem; */
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width:870px) {
+  .custom-dropdown {
+    /* height: 50px; */
+    /* font-size: .8rem; */
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+    justify-content: space-around;
+  }
+}
+
+
+@media screen and (max-width:720px) {
+  .custom-dropdown {
+    height: 50px;
+    font-size: .8rem;
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .custom-dropdown {
+    height: 50px;
+    font-size: .8rem;
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .custom-dropdown {
+    height: 50px;
+    font-size: .8rem;
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    justify-content: space-around;
+  }
+}
+
+
+
+@media screen and (max-width:400px) {
+  .custom-dropdown {
+    height: 50px;
+    font-size: .8rem;
+  }
+
+  .selected-option {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+    justify-content: space-around;
+  }
+
+
+}

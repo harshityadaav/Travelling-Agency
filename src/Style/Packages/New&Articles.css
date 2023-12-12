@@ -1,0 +1,124 @@
+.gallary_newsarticle_section {
+    background-image: url("../../assets/Images/Shared/News/back.jpg");
+    height: fit-content;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gallary_newsarticle_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallary_newsarticle_middle {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+}
+.gallary_newsarticle_middle_left{
+     width: 40%;
+}
+
+.gallary_newsarticle_middle p {
+    margin: 1.5rem 0rem;
+}
+
+.gallary_newsarticle_middle_right{
+    width: 60%;
+}
+.gallary_newsarticle_middle_right_top_photo{
+    width: 40%;
+}
+.gallary_newsarticle_middle_right img{
+     width: 99%;
+     padding-left: 5%;
+     padding-right: 1%;
+     margin-top: 3%;
+}
+
+.gallary_newsarticle_middle_right_bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.gallary_newsarticle_middle_right_bottom h1{
+    margin-top: 5%;
+}
+.gallary_newsarticle_middle_right_bottom p{
+    margin-right: -4%;
+}
+
+.gallary_newsarticle_bottom_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.gallary_newsarticle_bottom_bottom h1 {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary);
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.gallary_newsarticle_bottom_bottom p {
+    background-color: var(--primary);
+    color: var(--p-dark);
+    padding: 1rem;
+}
+
+/* For Tablets */
+@media screen and (max-width: 950px){
+    .gallary_newsarticle_top h1{
+        margin-bottom: 10%;
+    }
+    .gallary_newsarticle_middle{
+        padding: 0 1rem;
+    }
+    .gallary_newsarticle_middle_left{
+        width: 50%;
+   }
+   .gallary_newsarticle_middle_right{
+    width: 50%;
+}
+.gallary_newsarticle_middle_left h1,  .gallary_newsarticle_middle_right h1{
+    margin-bottom: -5%;
+}
+}
+
+/* For Phone Screen */
+@media screen and (max-width: 600px){
+    .gallary_newsarticle_top h1{
+        margin-bottom: 10%;
+        font-size: 30px;
+    }
+    .gallary_newsarticle_middle{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .gallary_newsarticle_middle_left{
+        width: 100%;
+    }
+    .gallary_newsarticle_middle_left h1,  .gallary_newsarticle_middle_right h1{
+        font-size: 24px;
+        margin-bottom: -5%;
+    }
+    .gallary_newsarticle_middle_right{
+        width: 107%;
+        margin-left: -5%;
+    }
+    .gallary_newsarticle_bottom_top h1{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,24 @@
+.gallary_places_section {
+    width: 85%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gallary_places_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallary_places_bottom_middle {
+    margin: 4rem 2rem;
+}
+
+.gallary_places_bottom_middle_img {
+    margin-bottom: 1rem;
+}

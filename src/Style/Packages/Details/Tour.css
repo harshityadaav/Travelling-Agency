@@ -1,0 +1,301 @@
+.package_details_Tour_section {
+    display: flex;
+    background-image: url("../../../assets/Images/Shared/Package\ Details/Tour/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: var(--primary);
+    height: fit-content;
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tour_back_details {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem 0rem;
+    height: fit-content;
+}
+
+.tour_back_road {
+    height: 100%;
+
+}
+
+.tour_back_road img {
+    z-index: 2;
+    position: relative;
+    height: 70%;
+}
+
+
+.tour_back_car img {
+    height: 120px;
+    width: 75px;
+}
+
+.package_details_tour_start {
+    z-index: 10;
+    border: 1px solid var(--secondary);
+    padding: 2px;
+    border-radius: 120px;
+    position: absolute;
+    top: -2%;
+}
+
+.package_details_tour_start div {
+    z-index: 10;
+    height: 120px;
+    width: 120px;
+    color: var(--p-dark);
+    background-color: var(--secondary);
+    font-size: var(--fonts-secondary);
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.package_details_tour_end {
+    z-index: 3;
+    border: 1px solid var(--secondary);
+    padding: 2px;
+    border-radius: 120px;
+    position: absolute;
+    top: 95%;
+}
+
+.package_details_tour_end div {
+    z-index: 3;
+    height: 120px;
+    width: 120px;
+    color: var(--p-dark);
+    background-color: var(--secondary);
+    font-size: var(--fonts-secondary);
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.package_details_tour_bottom {
+    margin: 3rem;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tour_day_details {
+    position: absolute;
+    z-index: 5;
+    top: 3%;
+    width: 100%;
+    height: 100% !important;
+}
+
+.package_details_tour_day_even {
+    z-index: 4;
+    position: relative;
+    height: 55vh;
+    left: 58%;
+    text-align: left;
+    width: 40%;
+}
+
+.package_details_tour_day_odd {
+    z-index: 4;
+    position: relative;
+    height: 55vh;
+    left: 4%;
+    text-align: left;
+    width: 40%;
+}
+
+.package_tour_hr {
+    margin-top: 3rem;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+}
+
+/*//////////////////////////////////////////            HOTELS USED IN PACKAGE          /////////////////////////////////  */
+
+.hotels_used_package {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.package_details_tour_table {
+    width: 100%;
+    height: 80vh;
+    padding: 3rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.package_details_tour_table table {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border: none;
+    outline: none;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.package_details_tour_table::-webkit-scrollbar {
+    display: none;
+}
+
+.tourtable_heading_row th {
+    width: 180px;
+}
+
+.package_details_tour_table img {
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+}
+
+.tourtable_heading_row {
+    border-spacing: 0px;
+    background-color: var(--green);
+    padding: 50px;
+    height: 60px;
+}
+
+td {
+    margin: 15px;
+    height: 180px;
+    background-color: var(--p-dark);
+    box-sizing: border-box;
+}
+
+.tour_package_inclusion {
+    padding: 3rem;
+    color: var(--primary);
+}
+
+.tour_package_inclusion h1 {
+    line-height: 50px;
+}
+
+.tour_package_inclusion_li {
+    list-style-type: square;
+    color: var(--primary);
+    line-height: 50px;
+}
+
+
+@media screen and (max-width:1220px) {
+
+    .package_details_tour_table {
+        height: 40vh;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .package_details_tour_bottom {
+        display: none;
+    }
+
+    .package_details_animation_heading {
+        font-size: var(--fonts-card-md) !important;
+    }
+
+    .package_details_animation_para {
+        font-size: var(--fonts-card-sm) !important;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+    .package_details_animation_heading {
+        font-size: var(--fonts-card-xsm) !important;
+    }
+
+    .package_details_animation_para {
+        font-size: var(--fonts-card-xsm) !important;
+    }
+
+    .package_details_tour_day_even {
+        z-index: 4;
+        position: relative;
+        height: 60vh;
+        left: 63%;
+        width: 35%;
+    }
+
+    .package_details_tour_day_odd {
+        z-index: 4;
+        position: relative;
+        height: 60vh;
+        left: 2%;
+        text-align: left;
+        width: 35%;
+    }
+
+    .package_details_tour_table img {
+        height: 60px;
+        width: 60px;
+        border-radius: 80px;
+    }
+
+    .package_details_tour_table {
+        height: 40vh;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .package_details_tour_table table {
+        font-size: var(--fonts-card-xsm) !important;
+    }
+
+    .tourtable_heading_row {
+        border-spacing: 0px;
+        background-color: var(--green);
+        padding: 5px;
+        height: 5px;
+    }
+
+    .tour_package_inclusion h1 {
+        line-height: 20px;
+    }
+
+    .tour_package_inclusion_li {
+        list-style-type: square;
+        color: var(--primary);
+        line-height: 20px;
+        text-decoration: none;
+        cursor: text;
+    }
+
+    .tour_package_inclusion {
+        padding: 1rem 1rem;
+        color: var(--primary);
+    }
+
+    td {
+        margin: 15px;
+        height: 120px;
+        background-color: var(--p-dark);
+        box-sizing: border-box;
+    }
+}

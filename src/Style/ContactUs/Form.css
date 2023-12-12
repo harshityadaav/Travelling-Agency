@@ -1,0 +1,143 @@
+.Form-Main {
+  /* height: 70vh; */
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: var(--formbg);
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.Form-Main h1 {
+  color: var(--green);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 0.0125rem;
+}
+.Form-Main span {
+  color: var(--secondary);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 0.0125rem;
+}
+.Form-Main p {
+  font-size: 0.9375rem;
+  color: var(--p-dark);
+  font-weight: 300;
+  line-height: 1.875rem;
+  letter-spacing: 0.0125rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 3%;
+}
+
+.form-group input,
+.form-group select {
+  padding-top: 0.8rem;
+  margin-bottom: 2rem;
+  width: 48%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--p-dark);
+  outline: none;
+  font-size: 15px;
+}
+.form-group .message {
+  width: 100%;
+  border: none;
+  font-size: 0.9375rem;
+  background-color: transparent;
+  border-bottom: 1px solid var(--p-dark);
+  font-size: 15px;
+}
+.form-group input::placeholder {
+  color: var(--p-dark);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.875rem;
+  letter-spacing: 0.0125rem;
+  padding: 0.3rem;
+}
+.dateofjourney {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 48%;
+}
+.dateofjourney #date {
+  width: 100%;
+  border: 1px solid var(--p-dark);
+  color: var(--p-dark);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+#date input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+
+.dateofjourney label {
+  padding: 0.3rem;
+  color: var(--p-dark);
+}
+.form-container button {
+  width: 30%;
+  height: 6vh;
+  border: none;
+  color: var(--green);
+  background-color: var(--secondary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+  letter-spacing: 0.0125rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.form-container select {
+  /* Personalize */
+  color: var(--p-dark);
+  font-size: 0.9375rem;
+  font-weight: 300;
+  /* line-height: 2rem; */
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+  text-align: start;
+  padding-left: 0;
+  /* font-size: 15px; */
+
+  /* Remove focus outline */
+  /* &:focus {
+    color: var(--primary);
+    background-color: var(--p-dark);
+    outline: none;
+    line-height: 2rem;
+  }
+  option {
+    color: var(--secondary)
+    background-color: var(--primary);
+    cursor: pointer;
+    text-align: left;
+    line-height: 2rem;
+  } */
+}
+
+
+
+
+
+

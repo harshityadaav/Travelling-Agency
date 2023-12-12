@@ -1,0 +1,46 @@
+.blogs-section2{
+    display: flex;
+   margin: 5% 3%;
+}
+.blogs-sections{
+   margin: 0 20px;
+}
+.blogs-sections img{
+    border: 2px solid var(--secondary);
+    padding: 5px;
+}
+.blogs-sections p{
+    color: var(--p-dark);
+}
+.blogs-sections h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* For Phone Screen */
+@media screen and (max-width: 768px){
+    .blogs-section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 5% 4%;
+        margin-top: 5%;
+    }
+    .blogs-sections{
+       margin: 0 0;
+       margin-bottom: 10%;
+    }
+    .blogs-sections img{
+        border: 2px solid var(--secondary);
+        padding: 5px;
+    }
+    .blogs-sections p{
+        color: var(--p-dark);
+        text-align: justify;
+    }
+    .blogs-sections h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,17 @@
+:root {
+  --primary: #ededed;
+  --secondary: #f2d449;
+  --p-dark: #5e6062;
+  --green: #808661;
+  --formbg: #edededcc;
+  --fonts-primary: 3rem;
+  --fonts-secondary: 2rem;
+  --fonts-card-primary: large;
+  --fonts-card-md: medium;
+  --fonts-card-sm: small;
+  --fonts-card-xsm: x-small;
+  --fontw-primary: bold;
+  --fontw-secondary: lighter;
+  --font-heading-mobile: 1.5rem;
+  --mobile-heading: 1.5rem;
+}

@@ -1,0 +1,195 @@
+.package_section {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 3rem 0rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    background-color: var(--primary);
+  }
+  
+  .car {
+    width: 100%;
+    position: relative;
+  }
+  
+  .backImage {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .backImage > img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .carPosition {
+    width: 150px;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--primary);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carPosition img {
+    display: none;
+    position: absolute;
+    top: 27%;
+    left: 80%;
+    cursor: pointer;
+  }
+  
+  .carPosition:not(.empty) img {
+    display: block;
+  }
+  
+  .carPosition.empty img {
+    display: none;
+  }
+  
+  .carimage {
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+  }
+  
+  .carimage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .packagesDayWise {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+  
+  .packageDetails {
+    width: 18%;
+    height: auto;
+    background: var(--primary);
+  }
+  
+  .packageImageContainer {
+    width: 100%;
+  }
+  
+  .packageImageContainer > img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .package_section {
+      background-image: url("../../../assets/Images/Home/Packages/mobile/mback.png");
+      width: 100%;
+      background-position: center;
+      position: relative;
+    }
+  
+    .backImage > img {
+      display: none;
+      background: transparent;
+      visibility: hidden;
+    }
+  
+    .car {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .carPosition {
+      display: flex;
+      position: static;
+      width: 100%;
+    }
+  
+    .carPosition img {
+      position: static;
+      transform: translate(4.5rem, -2rem);
+      cursor: pointer;
+    }
+  
+    .car-postion {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 60%;
+      width: 30%;
+      height: 90%;
+    }
+  
+    .carimage {
+      width: 20%;
+      position: absolute;
+    }
+  
+    .carimage > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .packagesDayWise {
+     align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+    .packageDetails {
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background: transparent;
+      align-items: center;
+    }
+  
+    .packageImageContainer {
+      position: relative;
+      width: 100%;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+  
+    .packageImageContainer > img {
+      width: 112px;
+      height: 133px;
+      object-fit: contain;
+    }
+    .details {
+      position: absolute;
+      top: 50%;
+      padding: 0.5rem;
+    }
+    .details {
+      color: var(--primary);
+    }
+  
+    .details p:first-of-type {
+      color: var(--secondary);
+    }
+  }

@@ -1,0 +1,49 @@
+.blog-hero{
+    background-image: url(../../assets/Images/Blogs/unsplash_YcZZ-29ktoM.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+.blog-hero h1{
+    font-size: var(--fonts-primary);
+    color: var(--secondary);
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: -7%;
+}
+.blog-hero p{
+    color: var(--primary);
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+/* For Phone Screen */
+@media screen and (max-width: 1080px){
+    .blog-hero{
+        height: auto;
+        padding-top: 30%;
+        padding-bottom: 25%;
+    }
+    .blog-hero h1{
+        font-size: 32px;
+    font-weight: 600;
+    margin-top: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .blog-hero{
+        height: auto;
+        padding-top: 50%;
+        padding-bottom: 25%;
+    }
+    .blog-hero h1{
+        font-size: 24px;
+    }
+}

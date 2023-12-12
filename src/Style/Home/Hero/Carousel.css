@@ -1,0 +1,22 @@
+.slick-carousel-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slick-carousel-slide {
+    box-sizing: border-box;
+    border: 5px solid #fff !important;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 40px;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}

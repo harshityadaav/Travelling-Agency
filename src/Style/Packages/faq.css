@@ -1,0 +1,27 @@
+.faq{
+    width: 92%;
+    margin-left: 4%;
+}
+.faq-question{
+    background: var(--secondary);
+    width: 100%;
+    color: var(--p-dark);
+    padding: 5px;
+}
+.faq-text{
+    font-size: 32px;
+}
+.faq-answer{
+    padding: 10px;
+    color: var(--p-dark);
+}
+
+@media screen and (max-width: 768px){
+    .faq-text{
+        font-size: 20px;
+    }
+    .faq{
+        width: 94%;
+        margin-left: 3%;
+    }
+}

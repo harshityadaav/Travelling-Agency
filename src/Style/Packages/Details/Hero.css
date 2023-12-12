@@ -1,0 +1,23 @@
+.package_details_section {
+    background-image: url('../../../assets/Images/Shared/Package\ Details/Hero/back.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.package_details_hero_details {
+    text-align: center;
+}
+
+@media screen and (max-width:720px) {
+    .package_details_section {
+        padding: 1rem;
+    }
+}
